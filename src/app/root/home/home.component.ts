@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IpcService } from 'src/app/services/ipc.service';
+import { IpcService } from '@app/services';
 
 export interface Tile {
   color: string;
